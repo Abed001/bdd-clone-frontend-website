@@ -1,14 +1,11 @@
 *{
     padding: 0;
     margin: 0;
-    font-family:sans-serif;
+    font-family:;
     box-sizing: border-box;
 }
-.hero-section{
-    background-image: url(BDD-assets/slide7.jpg);
-    width: 100%;
-}
-.heroHeading{
+
+.hero-Heading{
     color: #fff;
     font-weight: 1000;
     font-size: 40px;
@@ -21,15 +18,37 @@
 
     
 }
-.grey-fade-over {
-    position: absolute;
+.hero-img{
     width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-color: black;
-    opacity: .5;
-    z-index: 300;}
+    min-height: 100vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.8), 
+        rgba(0, 0, 0, 0.8)
+    ), url(BDD-assets/slide7.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.solid-foundation{
+    background-color: lightgrey;
+}
+.solid-foundation>h1{
+    color: black;
+    font-weight: 1000;
+    font-size:30px;
+    font: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5vh ;
+    padding-bottom: 5vh ;
+    
+}
+.logo{  
+    margin:10px 80px;
+    
+}
+
 
 .top-nav{
     display: flex;
@@ -44,20 +63,18 @@
     display: flex;
     justify-content: center;
   align-items: center;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: bold;
     
 }
 .links>li{
-    margin-right:20px ;
+    margin-right:15px ;
     cursor: pointer;
     
 }
 .btn {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 20px ;
-    padding-right: 20px;
+    margin-right: 80px;
+    padding: 10px 20px;
     border: none;
     border-radius: 20px;
   }
