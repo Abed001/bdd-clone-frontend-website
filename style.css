@@ -89,7 +89,6 @@
     }
 
 .video-section{
-        
         width: 100%;
         min-height: 100vh;
         zoom: 80%;
@@ -110,7 +109,14 @@
         padding-bottom: 20vh ;
         padding-top: 10vh;
     }
+    .video-frame{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+     
+    
 
+}
 
     .logo{  
         margin:10px 80px;
