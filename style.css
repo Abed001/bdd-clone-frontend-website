@@ -218,3 +218,28 @@ font-weight: bold;
     color: #fff;
     font-weight: bold;
 }
+.paraflex-end{
+    padding-bottom: 20px;
+    color: darkslategrey;
+    font-weight: 500px;
+    font: bold;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+.flex-end{
+    display: flex;
+    justify-content: center;
+    justify-content: flex-end;
+}
+.app-btn{
+    
+        margin-right: 10px;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 20px;
+        background-color:dodgerblue;
+        color: #fff;
+        font-weight: bold;
+  
+}
