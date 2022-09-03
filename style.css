@@ -159,6 +159,16 @@ padding-top: 10vh;}
 .join-card:hover{
     background-color: lightgrey;
 }
+.join-card-para{
+    padding: 0 60px;
+   
+   
+}
+.card-para{
+    text-align: center;
+   width: 30%;
+}
+
     .logo{  
         margin:10px 80px;
         
