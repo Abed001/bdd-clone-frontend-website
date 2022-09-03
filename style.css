@@ -1,7 +1,7 @@
 *{
     padding: 0;
     margin: 0;
-    font-family:;
+    font-family:sans-serif;
     box-sizing: border-box;
 }
 
@@ -31,6 +31,7 @@
 }
 .solid-foundation{
     background-color: lightgrey;
+   
 }
 .solid-foundation>h1{
     color: black;
@@ -44,6 +45,18 @@
     padding-bottom: 5vh ;
     
 }
+.card{
+    background-color: #fff;
+    width: 140px;
+    flex-direction: row;
+    margin-top: 20px;
+    margin: 10px;
+
+}
+.cardheading{
+
+}
+
 .logo{  
     margin:10px 80px;
     
