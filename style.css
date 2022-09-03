@@ -116,11 +116,49 @@
     justify-content: center;
     align-items: center;
     
-     
     
+}
+.join-bdd-section{
+width: 100%;
+
+}
+.join-center-cards{
+    display: flex;
+    justify-content: flex-end;
+    
+    
+}
+.join-Heading{
+color: black;
+font-weight: 1000;
+font-size: 30px;
+font: bold;
+display: flex;
+justify-content: center;
+padding-top: 10vh;}
+
+.join-img{
+    width:30%;
+    
+ border-radius: 10px;
+ margin-top: 30px;
+ margin-left: 0px;
 
 }
 
+.join-card{
+    
+   min-height: 80vh;
+    background-color: #fff;
+    margin: 30px 10px;
+    width:15em;
+    border-radius: 5px;
+    
+
+}
+.join-card:hover{
+    background-color: lightgrey;
+}
     .logo{  
         margin:10px 80px;
         
