@@ -1,132 +1,132 @@
-    *{
-        padding: 0;
-        margin: 0;
-        font-family:sans-serif;
-        box-sizing: border-box;
-    }
+*{
+    padding: 0;
+    margin: 0;
+    font-family:sans-serif;
+    box-sizing: border-box;
+}
 
-    .hero-Heading{
-        color: #fff;
-        font-weight: 1000;
-        font-size: 40px;
-        font: bold;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-top: 20vh ;
-        padding-bottom: 20vh ;
-
-        
-    }
-    .hero-img{
-        width: 100%;
-        min-height: 100vh;
-        background: linear-gradient(
-            rgba(0, 0, 0, 0.8), 
-            rgba(0, 0, 0, 0.8)
-        ), url(BDD-assets/slide7.jpg) no-repeat;
-        background-size: cover;
-        background-position: center;
-        
-    }
-    .solid-foundation{
-        width: 100%;
-        height: 110vh;
-        background-color: lightgrey;
-        
-    
-    }
-    .solid-foundation>h1{
-        color: black;
-        font-weight: 1000;
-        font-size:30px;
-        font: bold;
-        text-align: center;
-        padding-top: 5vh ;
-        padding-bottom: 5vh ;
-        align-items: center;
-        
-    }
-    .center-cards{
-        display: flex;
-        justify-content: space-evenly;
-        flex-direction: row;
-        flex-wrap: wrap;
-        
-    }
-    .card{
-        padding-top: 10px;
-       min-height: 80vh;
-        background-color: #fff;
-        margin: 20px 10px;
-        width:15em;
-        border-radius: 5px;
-        
-
-    }
-    .card:hover{
-        background-color: lightgrey;
-    }
-   
-    .card-img{
-        align-items: center;
-        padding: 20px;
-        display: flex;
-        justify-content: center;
-    }
-
-    .card-heading>h3{
-        font:bold;
-        padding-bottom: 20px;
-        display: flex;
-        justify-content: center;
-    }
-    .card-para{
-        color: gray ;
-        padding-left: 20px;
-        display: flex;
-        justify-content: center;
-    }
-
-.video-section{
-        width: 100%;
-        min-height: 100vh;
-        zoom: 80%;
-        background: linear-gradient(
-            rgba(0, 0, 0, 0.8), 
-            rgba(0, 0, 0, 0.8)
-        ), url(BDD-assets/parallax-4.jpg) no-repeat;        background-size: cover;
-        background-position: center;
-        
-    }
-    .video-Heading{
-        color: #fff;
-        font-weight: 1000;
-        font-size: 30px;
-        font: bold;
-        display: flex;
-        justify-content: center;
-        padding-top: 10vh;
-    }
-    .video-frame{
-       
-        border-radius: 30px;
-        padding: 10vh 0vh;
-     display: flex;
+.hero-Heading{
+    color: #fff;
+    font-weight: 1000;
+    font-size: 40px;
+    font: bold;
+    display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 20vh ;
+    padding-bottom: 20vh ;
+
     
+}
+.hero-img{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.8), 
+        rgba(0, 0, 0, 0.8)
+    ), url(BDD-assets/slide7.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
     
+}
+.solid-foundation{
+    width: 100%;
+    height: 110vh;
+    background-color: lightgrey;
+    
+
+}
+.solid-foundation>h1{
+    color: black;
+    font-weight: 1000;
+    font-size:30px;
+    font: bold;
+    text-align: center;
+    padding-top: 5vh ;
+    padding-bottom: 5vh ;
+    align-items: center;
+    
+}
+.center-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+.card{
+    padding-top: 10px;
+min-height: 80vh;
+    background-color: #fff;
+    margin: 20px 10px;
+    width:15em;
+    border-radius: 5px;
+    
+
+}
+.card:hover{
+    background-color: lightgrey;
+}
+
+.card-img{
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-heading>h3{
+    font:bold;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.card-para{
+    color: gray ;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.video-section{
+    width: 100%;
+    min-height: 100vh;
+    zoom: 80%;
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.8), 
+        rgba(0, 0, 0, 0.8)
+    ), url(BDD-assets/parallax-4.jpg) no-repeat;        background-size: cover;
+    background-position: center;
+    
+}
+.video-Heading{
+    color: #fff;
+    font-weight: 1000;
+    font-size: 30px;
+    font: bold;
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+}
+.video-frame{
+
+    border-radius: 30px;
+    padding: 10vh 0vh;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
 }
 .join-bdd-section{
 width: 100%;
 
 }
 .join-center-cards{
-    display: flex;
-    justify-content: flex-end;
-    
-    
+display: flex;
+justify-content: flex-end;
+
+
 }
 .join-Heading{
 color: black;
@@ -138,75 +138,82 @@ justify-content: center;
 padding-top: 10vh;}
 
 .join-img{
-    width:30%;
-    
- border-radius: 10px;
- margin-top: 30px;
- margin-left: 0px;
+width:30%;
+
+border-radius: 10px;
+margin-top: 30px;
+margin-left: 0px;
 
 }
 
 .join-card{
-    
-   min-height: 80vh;
-    background-color: #fff;
-    margin: 30px 10px;
-    width:15em;
-    border-radius: 5px;
-    
+    box-shadow: 0 5px 25px rgba(1 1 1/15%);
+background-image: url(./BDD-assets/bg-icon.png);
+min-height: 80vh;
+background-color: #fff;
+margin: 30px 10px;
+width:15em;
+border-radius: 5px;
+transition: 0.7s ease;
+
 
 }
 .join-card:hover{
-    background-color: lightgrey;
+    transform:(1.1);
 }
 .join-card-para{
+    margin-top: 20px;
     padding: 0 60px;
-   
-   
+
+
 }
+.join-card-heading{
+    margin-top: 20px;
+    padding: 0 60px;
+
+    }
 .card-para{
-    text-align: center;
-   width: 30%;
+text-align: center;
+width: 30%;
 }
 
-    .logo{  
-        margin:10px 80px;
-        
-    }
+.logo{  
+    margin:10px 80px;
+    
+}
 
 
-    .top-nav{
-        display: flex;
-        justify-content: space-between;
-        height: 80px;
-        
-        
-    }
-    .links{
-        color: #fff;
-        list-style: none;
-        display: flex;
-        justify-content: center;
-    align-items: center;
-    font-size: 14px;
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    
+    
+}
+.links{
+    color: #fff;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+align-items: center;
+font-size: 14px;
+font-weight: bold;
+    
+}
+.links>li{
+    margin-right:15px ;
+    cursor: pointer;
+    
+}
+.btn {
+    margin-right: 80px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+}
+
+.btn-blue {
+    background-color:dodgerblue;
+    color: #fff;
     font-weight: bold;
-        
-    }
-    .links>li{
-        margin-right:15px ;
-        cursor: pointer;
-        
-    }
-    .btn {
-        margin-right: 80px;
-        padding: 10px 20px;
-        border: none;
-        border-radius: 20px;
-    }
-    
-    .btn-blue {
-        background-color:dodgerblue;
-        color: #fff;
-        font-weight: bold;
-    }
-    
+}
