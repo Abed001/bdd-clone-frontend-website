@@ -38,21 +38,26 @@
     font-weight: 1000;
     font-size:30px;
     font: bold;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
     padding-top: 5vh ;
     padding-bottom: 5vh ;
+    align-items: center;
     
 }
 .card{
     background-color: #fff;
-    width: 140px;
-    flex-direction: row;
     margin-top: 20px;
     margin: 10px;
+    width:10.2em;
 
 }
+.center-card{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
 .cardheading{
 
 }
