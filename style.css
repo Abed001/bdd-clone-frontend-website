@@ -55,8 +55,9 @@
         
     }
     .card{
+        padding-top: 10px;
        min-height: 80vh;
-    background-color: #fff;
+        background-color: #fff;
         margin: 20px 10px;
         width:15em;
         border-radius: 5px;
@@ -86,6 +87,30 @@
         display: flex;
         justify-content: center;
     }
+
+.video-section{
+        
+        width: 100%;
+        min-height: 100vh;
+        zoom: 80%;
+        background: linear-gradient(
+            rgba(0, 0, 0, 0.8), 
+            rgba(0, 0, 0, 0.8)
+        ), url(BDD-assets/parallax-4.jpg) no-repeat;        background-size: cover;
+        background-position: center;
+        
+    }
+    .video-Heading{
+        color: #fff;
+        font-weight: 1000;
+        font-size: 30px;
+        font: bold;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 20vh ;
+        padding-top: 10vh;
+    }
+
 
     .logo{  
         margin:10px 80px;
