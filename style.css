@@ -106,13 +106,16 @@
         font: bold;
         display: flex;
         justify-content: center;
-        padding-bottom: 20vh ;
         padding-top: 10vh;
     }
     .video-frame{
+       
+        border-radius: 30px;
+        padding: 10vh 0vh;
      display: flex;
     justify-content: center;
     align-items: center;
+    
      
     
 
