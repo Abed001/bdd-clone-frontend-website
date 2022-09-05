@@ -305,3 +305,41 @@ border-radius: 20px;
     justify-content: center;
 }
 
+.programs{
+    margin-top: 30px;
+    height:80vh ;
+    width:100%;
+    background-image: url(./BDD-assets/parallax-7.jpg);
+    zoom: 80%;
+}
+
+.program-container{
+    margin: 0 100px ;
+    padding:20px;
+    display: flex;
+    justify-content:flex-end;   
+    flex-direction: row;
+   
+}
+
+.head3-program{
+    color: white;
+    text-align: center;
+    width: 150px;
+    padding: 50px 0;
+    font: bold;
+}
+
+.program-card{
+    padding-right:100px;
+}
+
+.program-flex-start{
+    margin: 0 100px ;
+    padding:20px;
+    display: flex;
+    justify-content:flex-start;   
+    flex-direction: row;
+   
+}
+
